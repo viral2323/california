@@ -1,5 +1,5 @@
 trigger:
-- main  # Set the branch you want to trigger the pipeline on
+- master  # Set the branch you want to trigger the pipeline on
 
 pool:
   vmImage: 'ubuntu-latest'
