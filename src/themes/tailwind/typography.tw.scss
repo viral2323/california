@@ -1,0 +1,19 @@
+@layer components {
+  .custom-form-control {
+    & > .MuiFormControl-root,
+    & > .MuiButtonBase-root {
+      width: 100%;
+
+      @screen md {
+        width: auto;
+      }
+    }
+  }
+  .custom-form-control-modal {
+    display: flex;
+    & > .MuiFormControl-root,
+    & > .MuiButtonBase-root {
+      width: 100%;
+    }
+  }
+}
